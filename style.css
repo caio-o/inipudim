@@ -89,7 +89,7 @@ body {
 }
 .toolbar nav a:hover {
     color:#FFCCCC;
-    text-shadow: 1px 1px 10px #FFFFFF;
+    text-shadow: 1px 1px 7px #FFFFFF;
 }
 
 .toolbar navButton {
@@ -124,6 +124,16 @@ body {
     color: white;
     background-color: #330000;
     text-align: center;
+}
+
+.contact a {
+    color: #FF9999;
+    transition: text-shadow 0.2s ease-in-out;
+}
+
+.contact a:hover {
+  text-shadow: 1px 1px 10px #FFFFFF;
+  color: #FF9999
 }
 
 @media only screen and (max-width:600px) {
