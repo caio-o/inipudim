@@ -20,6 +20,10 @@ body {
     to {background-position: 128px 128px;}
 }
 
+p {
+  text-align: justify;
+}
+
 .references {
     font-size: 16pt;
     font-style: normal;
